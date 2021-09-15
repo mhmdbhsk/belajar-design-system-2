@@ -29,6 +29,7 @@
   "scripts": {
     "storybook": "start-storybook -p 6006",
     "build": "node esbuild.js",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=a6b68fdaa711"
   }
 }
