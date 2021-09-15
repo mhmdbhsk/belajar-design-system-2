@@ -29,7 +29,7 @@ export const Button = styled('button', {
       },
       purple: {
         backgroundColor: 'BlueViolet',
-        color: 'white',
+        color: 'BlueViolet',
         '&:hover': {
           backgroundColor: 'DarkViolet',
         },
@@ -55,8 +55,9 @@ export const Button = styled('button', {
       outlined: true,
       css: {
         $$shadowColor: 'DarkViolet',
-        color: 'white',
+        backgroundColor: 'transparent',
         '&:hover': {
+          color: 'white',
           backgroundColor: 'DarkViolet',
         },
       },
